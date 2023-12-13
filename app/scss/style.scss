@@ -1,0 +1,26 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+.item{
+  background: #0acff1;
+  width: 100px;
+  height: 30px;
+  margin: 7px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  color: #ffffff;
+  &.selected{
+    background: #ff00ff;
+  }
+}
+.select-rect{
+  background: #08e4b463;
+  border: 1px solid #06c098;
+  position: absolute;
+  &.transparent{
+    opacity: 0;
+  }
+}
